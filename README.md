@@ -20,20 +20,20 @@ The network is **trained simulatenously** to change both age and race based on t
 
 #### When passing race input
 
-![](race1.png)
-![](race2.png)
-![](race3.png)
-![](race4.png)
-![](race5.png)
+![](data/race/race1.png)
+![](data/race/race2.png)
+![](data/race/race3.png)
+![](data/race/race4.png)
+![](data/race/race5.png)
 
 
 #### When passing age input
 
-![](age1.png)
-![](age2.png)
-![](age3.png)
-![](age4.png)
-![](age5.png)
+![](data/age/age1.png)
+![](data/age/age2.png)
+![](data/age/age3.png)
+![](data/age/age4.png)
+![](data/age/age5.png)
 
 ### Additional enhancement
 Apply the model on a group pic
@@ -41,15 +41,15 @@ Apply the model on a group pic
 
 ### Original
 
-![](big3.jpg)
+![](data/full_pics/big3.jpg)
 
 ### Coverted to old with passing 0 as input
 
-![](big3_old.jpg)
+![](data/full_pics/big3_old.jpg)
 
 ### Converted to black passing 1 as input
 
-![](big3_black.jpg)
+![](data/full_pics/big3_black.jpg)
 
 #### Things tried out
 1. Modified keras-gan code to change generator architecture from U-Net to Resnet and made few other small changes such as changing the number of input channels to match with the code provided by Rohan
