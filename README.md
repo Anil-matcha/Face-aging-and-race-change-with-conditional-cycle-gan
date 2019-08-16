@@ -41,15 +41,15 @@ Apply the model on a group pic
 
 ### Original
 
-![](big3.png)
+![](big3.jpg)
 
 ### Coverted to old with passing 0 as input
 
-![](big3_old.png)
+![](big3_old.jpg)
 
 ### Converted to black passing 1 as input
 
-![](big3_black.png)
+![](big3_black.jpg)
 
 #### Things tried out
 1. Modified keras-gan code to change generator architecture from U-Net to Resnet and made few other small changes such as changing the number of input channels to match with the code provided by Rohan
