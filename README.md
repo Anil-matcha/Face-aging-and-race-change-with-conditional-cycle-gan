@@ -17,6 +17,9 @@ Input number is copied into an array of same shape as image and sent as the **4t
 The network is **trained simulatenously** to change both age and race based on the input provided
 
 #### Examples of output by network
+
+#### When passing race input
+
 ![](race1.png)
 ![](race2.png)
 ![](race3.png)
