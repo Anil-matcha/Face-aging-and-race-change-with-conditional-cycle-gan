@@ -35,6 +35,22 @@ The network is **trained simulatenously** to change both age and race based on t
 ![](age4.png)
 ![](age5.png)
 
+### Additional enhancement
+Apply the model on a group pic
+**Detect** all the faces in the image using opencv face detector get the crops pass through the gan, get the modified images and put it back in the same location where it is cropped from
+
+### Original
+
+![](big3.png)
+
+### Coverted to old with passing 0 as input
+
+![](big3_old.png)
+
+### Converted to black passing 1 as input
+
+![](big3_black.png)
+
 #### Things tried out
 1. Modified keras-gan code to change generator architecture from U-Net to Resnet and made few other small changes such as changing the number of input channels to match with the code provided by Rohan
 2. Played a lot with weights to the loss so that the network behaves properly. One key identification is cyclic loss dominates adversial loss due to which network tries to re-create same image more. To deal with it cyclic loss weight is reduced until the losses are comparable.
